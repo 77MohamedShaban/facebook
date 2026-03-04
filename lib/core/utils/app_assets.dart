@@ -3,9 +3,9 @@ abstract class AppImages {
   static const String logo = '$_baseUrl/logo.png';
   static const String branding = '$_baseUrl/branding.png';
   static const String messi = '$_baseUrl/messi.png';
-  static const String goat = '$_baseUrl/user_image.jpg';
-  static const String worldCup = '$_baseUrl/mohamed_shaban.jpeg';
-  static const String route = '$_baseUrl/post_image.jpg';
+  static const String userImage = '$_baseUrl/user_image.jpg';
+  static const String profilePicture = '$_baseUrl/mohamed_shaban.jpeg';
+  static const String postImage = '$_baseUrl/post_image.jpg';
   static const String rouetLogo = '$_baseUrl/route_logo.png';
 }
 

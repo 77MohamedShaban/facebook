@@ -50,7 +50,7 @@ class PostWidget extends StatelessWidget {
             ],
           ),
         ),
-        Image.asset(AppImages.route),
+        Image.asset(AppImages.postImage),
         Padding(
           padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
           child: Row(

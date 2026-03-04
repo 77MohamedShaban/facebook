@@ -13,7 +13,7 @@ class WhatInYourMind extends StatelessWidget {
         spacing: 8,
         children: [
           CircleAvatar(
-            backgroundImage: AssetImage(AppImages.worldCup),
+            backgroundImage: AssetImage(AppImages.profilePicture),
             radius: 24,
           ),
            Expanded(

@@ -29,13 +29,13 @@ class AppValidator {
     }
 
     // Password regex pattern (at least one uppercase, one lowercase, one number)
-    // final RegExp passwordRegex = RegExp(
-    //   r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$',
-    // );
+    final RegExp passwordRegex = RegExp(
+      r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$',
+    );
 
-    // if (!passwordRegex.hasMatch(value)) {
-    //   return 'Password must contain uppercase, lowercase, number, and special character';
-    // }
+    if (!passwordRegex.hasMatch(value)) {
+      return 'Password must contain uppercase, lowercase, number, and special character';
+    }
 
     return null;
   }

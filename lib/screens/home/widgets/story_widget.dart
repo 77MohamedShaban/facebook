@@ -23,7 +23,7 @@ class StoryWidget extends StatelessWidget {
             backgroundColor: AppColors.blue,
             child: CircleAvatar(
               radius: 20,
-              backgroundImage: AssetImage(AppImages.goat),
+              backgroundImage: AssetImage(AppImages.userImage),
             ),
           ),
         ],

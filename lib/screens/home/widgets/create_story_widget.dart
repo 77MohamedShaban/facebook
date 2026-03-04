@@ -20,7 +20,7 @@ class CreateStoryWidget extends StatelessWidget {
             spacing: 16,
             crossAxisAlignment: .stretch,
             children: [
-              Expanded(flex: 8, child: Image.asset(AppImages.worldCup)),
+              Expanded(flex: 8, child: Image.asset(AppImages.profilePicture)),
               Expanded(
                 flex: 2,
                 child: Text(
