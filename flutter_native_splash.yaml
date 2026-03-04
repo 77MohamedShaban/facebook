@@ -1,6 +1,17 @@
 flutter_native_splash:
-  background_image:  assets/images/backgroundImage_splashScreen.png
-  fullscreen: true
+  android: true
+  ios: true
+  web: false
+  color: "#FFFFFF"
+  image: assets/images/facebook_logo.png
+  branding: assets/images/branding.png
+  branding_mode: bottom               
+  branding_bottom_padding: 24       
+
+  
+  #! ANDROID 12+ configuration:
   android_12:
     color: "#FFFFFF"
-    image: assets/images/facebook_logo.png
+    image: assets/images/android12splash.png    
+    # The branding image dimensions must be 800x320 px.
+    branding:      assets/images/android12branding.png      

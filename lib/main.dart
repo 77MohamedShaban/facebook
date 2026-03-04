@@ -1,11 +1,9 @@
-import 'package:basics/ui/home/screen/home_screen.dart';
-import 'package:basics/ui/login/screen/login_screen.dart';
+import 'package:facebook/screens/home/home_screen.dart';
+import 'package:facebook/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MyApp(),
-  );
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -14,21 +12,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        useMaterial3: true,
-        textSelectionTheme: TextSelectionThemeData(
-          cursorColor: Color(0xFF68A1FF),
-          selectionColor: Color(0xFF68A1FF),
-          selectionHandleColor: Color(0xFF68A1FF),
-        ),
-      ),
-      title: "facebook",
+      title: 'Facebook',
       debugShowCheckedModeBanner: false,
-      routes: {
-        HomeScreen.routeName: (context) => HomeScreen(),
-        LoginScreen.routeName: (context) => LoginScreen(),
-      },
       initialRoute: LoginScreen.routeName,
+      routes: {
+        LoginScreen.routeName: (_) => const LoginScreen(),
+        HomeScreen.roputeName: (_) => const HomeScreen(),
+      },
     );
   }
 }
