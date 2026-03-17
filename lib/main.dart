@@ -13,6 +13,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Facebook',
+      theme: ThemeData(
+        textSelectionTheme: TextSelectionThemeData(
+          cursorColor: Colors.blue,
+          selectionColor: Colors.blue.withValues(alpha: 0.3),
+          selectionHandleColor: Colors.blue
+        )
+      ),
       debugShowCheckedModeBanner: false,
       initialRoute: LoginScreen.routeName,
       routes: {

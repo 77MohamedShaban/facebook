@@ -20,7 +20,9 @@ class CreateStoryWidget extends StatelessWidget {
             spacing: 16,
             crossAxisAlignment: .stretch,
             children: [
-              Expanded(flex: 8, child: Image.asset(AppImages.profilePicture)),
+              Expanded(flex: 8, child: ClipRRect(
+      borderRadius: BorderRadius.only(topRight: Radius.circular(16),topLeft: Radius.circular(16))
+      ,child: Image.asset(AppImages.profilePicture))),
               Expanded(
                 flex: 2,
                 child: Text(

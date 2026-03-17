@@ -46,7 +46,7 @@ class HomeScreenAppbar extends StatelessWidget implements PreferredSizeWidget {
           Tab(icon: ImageIcon(AssetImage(AppIcons.profile))),
           Tab(icon: ImageIcon(AssetImage(AppIcons.notifications))),
           Tab(
-            icon: CircleAvatar(backgroundImage: AssetImage(AppImages.profilePicture)),
+            icon: CircleAvatar(backgroundImage: AssetImage(AppImages.profilePicture),radius: 15,),
           ),
         ],
       ),
