@@ -13,7 +13,7 @@ A few resources to get you started if this is your first Flutter project:
 
 For help getting started with Flutter development, view the
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fd4421ef-9a9e-4d54-b0bf-e5d5461b1cee" height="300"/>
-  <img src="https://github.com/user-attachments/assets/175db3eb-5b42-406c-9249-ea8ddc0308f4" height="300" style="margin: 0 15px;"/>
-  <img src="https://github.com/user-attachments/assets/7c180db9-75f6-473b-8941-988d980cf92f" height="300"/>
+  <img src="https://github.com/user-attachments/assets/13c6fbd7-2dee-454c-b004-33e834588f09" height="300"/>
+  <img src="https://github.com/user-attachments/assets/d8584247-6a79-4977-a356-503f6891b326" height="300" style="margin: 0 15px;"/>
+  <img src="https://github.com/user-attachments/assets/fb32919b-cb5a-4b67-a721-5eb71a065f9e" height="300"/>
 </p>
